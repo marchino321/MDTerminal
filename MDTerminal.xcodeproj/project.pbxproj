@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C367070CFF0EE3C0372F91 /* MySSHCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F8E97956AD5257671D692F /* MySSHCore.framework */; };
+		18C68217F25D2613E01904F9 /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E32A7D37044C6A8961FAF /* AppDataStore.swift */; };
+		3567D70C40EDD224D1982E20 /* SecretStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836A9422A968C590BDE7CFC2 /* SecretStore.swift */; };
+		3F80D5CE6344962FEE5EC2AD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF3C5D4215A46758B2339D /* SettingsView.swift */; };
+		4B53CA2179BF06FC5F1BD221 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EFC609F73CAA0B70A6980F /* Host.swift */; };
+		4DB05EC7297CACC01C7A3C39 /* HostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2AAD8E4E60FD1B536E516 /* HostDetailView.swift */; };
+		60CCADEF98628D35B24EE286 /* IOSSSHClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5869DE311D70CC4AA2BD4 /* IOSSSHClient.swift */; };
+		66E7F3FAEB8854478AD684C4 /* MySSHApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA636549C99469929CE2C96 /* MySSHApp.swift */; };
+		6A104328D53E9A7D5F3709DF /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010360822707165FB8C8EB35 /* AppModel.swift */; };
+		7D9FE3FC13E4E683B3F406B3 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C5AE38BBA7361C6F8C864C /* AppData.swift */; };
+		81E99D7EEAAB6576F0D3ECDE /* PortableTransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D4BD9281751E483FDB764 /* PortableTransferView.swift */; };
+		868B05844CDC1BE810679E0E /* HostSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FA09DFB32F11BAA1E0DE0B /* HostSidebar.swift */; };
+		9D02EBC9024D60A886949EAE /* iOS.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DED43532746FADB6525E57B /* iOS.xcassets */; };
+		A3CBC85873A0C30BE873A114 /* NIOSSH in Frameworks */ = {isa = PBXBuildFile; productRef = A495F0360571CF31FABF4608 /* NIOSSH */; };
+		B22C60E65ED37997FE5CE5EC /* SSHConfigParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBCE5FA490D4F85CBCC25AF /* SSHConfigParser.swift */; };
+		B92A318B1F0583D1912D08CC /* OpenSSHCommandBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4B288E3D0F86596E8AEE4A /* OpenSSHCommandBuilder.swift */; };
+		C7C86A306A3DD438B047F55F /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = 2CDB8711AFADB3AE7045F297 /* SwiftTerm */; };
+		D15854CDD0FA045A4516ED3E /* HostEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11207CA9534DC2B81ED94D16 /* HostEditorView.swift */; };
+		D7615768126A93C6CBE98510 /* NIOCore in Frameworks */ = {isa = PBXBuildFile; productRef = CB833A7E032C571467F8436F /* NIOCore */; };
+		D99F85CF34937E9F51756A29 /* PortableArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25294E7D8AC4F4BB462B14B8 /* PortableArchive.swift */; };
+		E31205B07BAEC6756725120E /* NIOPosix in Frameworks */ = {isa = PBXBuildFile; productRef = 6F5D41765E470D8C78513CE9 /* NIOPosix */; };
+		F2CD1973244E915DA93C5C40 /* HostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3289C926D297D6F41FFF1AE /* HostService.swift */; };
+		F46BBC1F91FD2254603B5AB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EBEA91E8AA5ABD2E5FD2C /* ContentView.swift */; };
+		F4F4D0866919A23B0BC2B083 /* MySSHCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54F8E97956AD5257671D692F /* MySSHCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7486C2C863C2A95F23A10BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33028AE86F235752B73DD9BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF840626B6FA7733878478DA;
+			remoteInfo = MySSHCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93E8707F6F7D1A12302DB118 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F4F4D0866919A23B0BC2B083 /* MySSHCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		000EBEA91E8AA5ABD2E5FD2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		010360822707165FB8C8EB35 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		11207CA9534DC2B81ED94D16 /* HostEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostEditorView.swift; sourceTree = "<group>"; };
+		20FA09DFB32F11BAA1E0DE0B /* HostSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostSidebar.swift; sourceTree = "<group>"; };
+		25294E7D8AC4F4BB462B14B8 /* PortableArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortableArchive.swift; sourceTree = "<group>"; };
+		54F8E97956AD5257671D692F /* MySSHCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MySSHCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C5AE38BBA7361C6F8C864C /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		5DED43532746FADB6525E57B /* iOS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = iOS.xcassets; sourceTree = "<group>"; };
+		6BA636549C99469929CE2C96 /* MySSHApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySSHApp.swift; sourceTree = "<group>"; };
+		751D4BD9281751E483FDB764 /* PortableTransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortableTransferView.swift; sourceTree = "<group>"; };
+		788FF7264701C00788240D0A /* MDTerminal-iPad.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "MDTerminal-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0E32A7D37044C6A8961FAF /* AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		836A9422A968C590BDE7CFC2 /* SecretStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretStore.swift; sourceTree = "<group>"; };
+		93EFC609F73CAA0B70A6980F /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		9A4B288E3D0F86596E8AEE4A /* OpenSSHCommandBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSSHCommandBuilder.swift; sourceTree = "<group>"; };
+		ABB5869DE311D70CC4AA2BD4 /* IOSSSHClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSSSHClient.swift; sourceTree = "<group>"; };
+		C3289C926D297D6F41FFF1AE /* HostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostService.swift; sourceTree = "<group>"; };
+		DBDF3C5D4215A46758B2339D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EBBCE5FA490D4F85CBCC25AF /* SSHConfigParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHConfigParser.swift; sourceTree = "<group>"; };
+		F5B2AAD8E4E60FD1B536E516 /* HostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3D50F5599A9D2C9B7D2D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7615768126A93C6CBE98510 /* NIOCore in Frameworks */,
+				E31205B07BAEC6756725120E /* NIOPosix in Frameworks */,
+				A3CBC85873A0C30BE873A114 /* NIOSSH in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E76F2AF4CBBE24D8830559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C367070CFF0EE3C0372F91 /* MySSHCore.framework in Frameworks */,
+				C7C86A306A3DD438B047F55F /* SwiftTerm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F5F3C818E54280D9AC92625 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				010360822707165FB8C8EB35 /* AppModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		24DE09D0B413476C06C66086 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5DED43532746FADB6525E57B /* iOS.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		251DEAD534CDDB58C019CECB /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				836A9422A968C590BDE7CFC2 /* SecretStore.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		33EAABDCEA319B7581B0CCC0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9192767D08106197B0070 /* MySSH */,
+				A0B4DC9D31CF4375C0AFAA83 /* MySSHCore */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		47E0C980808CA93D4DAF9840 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57C5AE38BBA7361C6F8C864C /* AppData.swift */,
+				93EFC609F73CAA0B70A6980F /* Host.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FEFF5603642115D7C71605E = {
+			isa = PBXGroup;
+			children = (
+				24DE09D0B413476C06C66086 /* Assets */,
+				33EAABDCEA319B7581B0CCC0 /* Sources */,
+				67F612B484FC72C2B2502889 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67F612B484FC72C2B2502889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788FF7264701C00788240D0A /* MDTerminal-iPad.app */,
+				54F8E97956AD5257671D692F /* MySSHCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80AEC4EF23B7C30695AE92AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				000EBEA91E8AA5ABD2E5FD2C /* ContentView.swift */,
+				F5B2AAD8E4E60FD1B536E516 /* HostDetailView.swift */,
+				11207CA9534DC2B81ED94D16 /* HostEditorView.swift */,
+				20FA09DFB32F11BAA1E0DE0B /* HostSidebar.swift */,
+				751D4BD9281751E483FDB764 /* PortableTransferView.swift */,
+				DBDF3C5D4215A46758B2339D /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BCE47E0D51C0A30BC4173C7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C3289C926D297D6F41FFF1AE /* HostService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A0B4DC9D31CF4375C0AFAA83 /* MySSHCore */ = {
+			isa = PBXGroup;
+			children = (
+				47E0C980808CA93D4DAF9840 /* Models */,
+				B75959ED1B835156524C1653 /* Persistence */,
+				AF5446A968A49455594983D4 /* Portability */,
+				251DEAD534CDDB58C019CECB /* Security */,
+				9BCE47E0D51C0A30BC4173C7 /* Services */,
+				FB090A1C03EDC7D97FCC7401 /* SSH */,
+			);
+			path = MySSHCore;
+			sourceTree = "<group>";
+		};
+		AF5446A968A49455594983D4 /* Portability */ = {
+			isa = PBXGroup;
+			children = (
+				25294E7D8AC4F4BB462B14B8 /* PortableArchive.swift */,
+			);
+			path = Portability;
+			sourceTree = "<group>";
+		};
+		B5F9192767D08106197B0070 /* MySSH */ = {
+			isa = PBXGroup;
+			children = (
+				C74E0CD0F2BB4D283279B23A /* App */,
+				1F5F3C818E54280D9AC92625 /* ViewModels */,
+				80AEC4EF23B7C30695AE92AA /* Views */,
+			);
+			path = MySSH;
+			sourceTree = "<group>";
+		};
+		B75959ED1B835156524C1653 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				7C0E32A7D37044C6A8961FAF /* AppDataStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		C74E0CD0F2BB4D283279B23A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6BA636549C99469929CE2C96 /* MySSHApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FB090A1C03EDC7D97FCC7401 /* SSH */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5869DE311D70CC4AA2BD4 /* IOSSSHClient.swift */,
+				9A4B288E3D0F86596E8AEE4A /* OpenSSHCommandBuilder.swift */,
+				EBBCE5FA490D4F85CBCC25AF /* SSHConfigParser.swift */,
+			);
+			path = SSH;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87FEA6821EBD5CF00B25599 /* MDTerminal-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D235573A4169611B1BEF0871 /* Build configuration list for PBXNativeTarget "MDTerminal-iPad" */;
+			buildPhases = (
+				A34A566E6C1CB6011D638873 /* Sources */,
+				67065D35AA967AC1C11DC30D /* Resources */,
+				F3E76F2AF4CBBE24D8830559 /* Frameworks */,
+				93E8707F6F7D1A12302DB118 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9693F842FD8D1725DE3E28 /* PBXTargetDependency */,
+			);
+			name = "MDTerminal-iPad";
+			packageProductDependencies = (
+				2CDB8711AFADB3AE7045F297 /* SwiftTerm */,
+			);
+			productName = "MDTerminal-iPad";
+			productReference = 788FF7264701C00788240D0A /* MDTerminal-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF840626B6FA7733878478DA /* MySSHCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9CBDC92F1E9AD1CD6F7AE3 /* Build configuration list for PBXNativeTarget "MySSHCore" */;
+			buildPhases = (
+				0EF4CCE262D0B52C4A10771A /* Sources */,
+				ED3D50F5599A9D2C9B7D2D1F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySSHCore;
+			packageProductDependencies = (
+				CB833A7E032C571467F8436F /* NIOCore */,
+				6F5D41765E470D8C78513CE9 /* NIOPosix */,
+				A495F0360571CF31FABF4608 /* NIOSSH */,
+			);
+			productName = MySSHCore;
+			productReference = 54F8E97956AD5257671D692F /* MySSHCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33028AE86F235752B73DD9BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					C87FEA6821EBD5CF00B25599 = {
+						DevelopmentTeam = W5GHKK5MCA;
+						ProvisioningStyle = Automatic;
+					};
+					CF840626B6FA7733878478DA = {
+						DevelopmentTeam = W5GHKK5MCA;
+					};
+				};
+			};
+			buildConfigurationList = D48CC009E771C5EFA92C4C63 /* Build configuration list for PBXProject "MDTerminal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4FEFF5603642115D7C71605E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F74266FE4A6B52500CFCBC8D /* XCRemoteSwiftPackageReference "swift-nio" */,
+				3155CCC556C56FF2055BBBEA /* XCRemoteSwiftPackageReference "swift-nio-ssh" */,
+				15AD22C40E9EF9963E2A83DF /* XCRemoteSwiftPackageReference "SwiftTerm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 67F612B484FC72C2B2502889 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF840626B6FA7733878478DA /* MySSHCore */,
+				C87FEA6821EBD5CF00B25599 /* MDTerminal-iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67065D35AA967AC1C11DC30D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D02EBC9024D60A886949EAE /* iOS.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EF4CCE262D0B52C4A10771A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9FE3FC13E4E683B3F406B3 /* AppData.swift in Sources */,
+				18C68217F25D2613E01904F9 /* AppDataStore.swift in Sources */,
+				4B53CA2179BF06FC5F1BD221 /* Host.swift in Sources */,
+				F2CD1973244E915DA93C5C40 /* HostService.swift in Sources */,
+				60CCADEF98628D35B24EE286 /* IOSSSHClient.swift in Sources */,
+				B92A318B1F0583D1912D08CC /* OpenSSHCommandBuilder.swift in Sources */,
+				D99F85CF34937E9F51756A29 /* PortableArchive.swift in Sources */,
+				B22C60E65ED37997FE5CE5EC /* SSHConfigParser.swift in Sources */,
+				3567D70C40EDD224D1982E20 /* SecretStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34A566E6C1CB6011D638873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A104328D53E9A7D5F3709DF /* AppModel.swift in Sources */,
+				F46BBC1F91FD2254603B5AB5 /* ContentView.swift in Sources */,
+				4DB05EC7297CACC01C7A3C39 /* HostDetailView.swift in Sources */,
+				D15854CDD0FA045A4516ED3E /* HostEditorView.swift in Sources */,
+				868B05844CDC1BE810679E0E /* HostSidebar.swift in Sources */,
+				66E7F3FAEB8854478AD684C4 /* MySSHApp.swift in Sources */,
+				81E99D7EEAAB6576F0D3ECDE /* PortableTransferView.swift in Sources */,
+				3F80D5CE6344962FEE5EC2AD /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC9693F842FD8D1725DE3E28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF840626B6FA7733878478DA /* MySSHCore */;
+			targetProxy = C7486C2C863C2A95F23A10BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E8A17C87024B896CA235661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W5GHKK5MCA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		2BA9D4F9029C9EB666ED9F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "MD Terminal";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.marcodattisi.mdterminal;
+				PRODUCT_MODULE_NAME = MDTerminal;
+				PRODUCT_NAME = "MD Terminal";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		50472E3554594AE16C58D181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.marcodattisi.mdterminal.core;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		B9F47F83AA493B9601E19868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "MD Terminal";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.marcodattisi.mdterminal;
+				PRODUCT_MODULE_NAME = MDTerminal;
+				PRODUCT_NAME = "MD Terminal";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		C2CB89A33EFD869E157C612D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.marcodattisi.mdterminal.core;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		C550D264581D667C57A38FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W5GHKK5MCA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F9CBDC92F1E9AD1CD6F7AE3 /* Build configuration list for PBXNativeTarget "MySSHCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CB89A33EFD869E157C612D /* Debug */,
+				50472E3554594AE16C58D181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D235573A4169611B1BEF0871 /* Build configuration list for PBXNativeTarget "MDTerminal-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA9D4F9029C9EB666ED9F18 /* Debug */,
+				B9F47F83AA493B9601E19868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D48CC009E771C5EFA92C4C63 /* Build configuration list for PBXProject "MDTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C550D264581D667C57A38FB6 /* Debug */,
+				0E8A17C87024B896CA235661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15AD22C40E9EF9963E2A83DF /* XCRemoteSwiftPackageReference "SwiftTerm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/migueldeicaza/SwiftTerm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.20.0;
+			};
+		};
+		3155CCC556C56FF2055BBBEA /* XCRemoteSwiftPackageReference "swift-nio-ssh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio-ssh.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.13.0;
+			};
+		};
+		F74266FE4A6B52500CFCBC8D /* XCRemoteSwiftPackageReference "swift-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.90.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2CDB8711AFADB3AE7045F297 /* SwiftTerm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15AD22C40E9EF9963E2A83DF /* XCRemoteSwiftPackageReference "SwiftTerm" */;
+			productName = SwiftTerm;
+		};
+		6F5D41765E470D8C78513CE9 /* NIOPosix */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F74266FE4A6B52500CFCBC8D /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOPosix;
+		};
+		A495F0360571CF31FABF4608 /* NIOSSH */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3155CCC556C56FF2055BBBEA /* XCRemoteSwiftPackageReference "swift-nio-ssh" */;
+			productName = NIOSSH;
+		};
+		CB833A7E032C571467F8436F /* NIOCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F74266FE4A6B52500CFCBC8D /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 33028AE86F235752B73DD9BD /* Project object */;
+}

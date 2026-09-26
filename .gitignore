@@ -1,0 +1,11 @@
+.build/
+.swiftpm/
+DerivedData/
+.xcode-derived/
+.ipad-derived/
+.ipad-sim-derived/
+.ipad-device-derived/
+dist/
+*.xcuserstate
+.DS_Store
+xcuserdata/
